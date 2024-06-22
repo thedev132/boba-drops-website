@@ -30,11 +30,6 @@ a:active {
     background: #d0d0d0; /* Background when active/clicked */
 }
 
-a:visited {
-    /* No special styles for visited links */
-}
-
-
 /* Header */
 header {
     background: #35424a;
@@ -126,11 +121,8 @@ footer {
     background: #35424a;
     color: #ffffff;
     border-radius: 8px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;  
 }
+
 
 .center {
 display: flex;
@@ -153,4 +145,11 @@ img {
     border: 2px solid #ccc; /* Add border */
     padding: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
 }
