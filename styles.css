@@ -144,7 +144,7 @@ text-align: center;
 }
 
 img {
-    max-width: 150px; /* Adjust based on your preference */
+    max-width: 250px; /* Adjust based on your preference */
     border-radius: 50%; /* Make image circular */
     border: 2px solid #ccc; /* Add border */
     padding: 5px;
